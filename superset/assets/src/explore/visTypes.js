@@ -1348,6 +1348,7 @@ export const visTypes = {
       },
       secondary_metric: {
         label: t('Secondary Metric'),
+        validators: [],
         default: null,
         description: t('[optional] this secondary metric is used to ' +
         'define the color as a ratio against the primary metric. ' +
